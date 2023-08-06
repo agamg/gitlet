@@ -1,0 +1,44 @@
+I setup1.inc
++ k.txt wug3.txt
++ l.txt notwug.txt
++ m.txt wug3.txt
++ n.txt notwug.txt
++ x.txt wug3.txt
++ z.txt notwug.txt
++ o.txt wug3.txt
++ p.txt notwug.txt
++ q.txt wug3.txt
++ r.txt notwug.txt
++ s.txt wug3.txt
++ t.txt notwug.txt
+> add k.txt
+<<<
+> add l.txt
+<<<
+> status
+=== Branches ===
+*master
+
+=== Staged Files ===
+f.txt
+g.txt
+k.txt
+l.txt
+
+=== Removed Files ===
+
+=== Modifications Not Staged For Commit ===
+
+=== Untracked Files ===
+m.txt
+n.txt
+o.txt
+p.txt
+q.txt
+r.txt
+s.txt
+t.txt
+x.txt
+z.txt
+
+<<<
